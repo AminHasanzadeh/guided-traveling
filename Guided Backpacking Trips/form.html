@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill the Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic. com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic. com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr +Dafoe&family=Open+Sans:wght@300;400;500;700&    family=Roboto:wght@300;400;500;700&display=swap"    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Wana a Trip ? Fill here!</h1>
+            <h2><a href="index.html">back to main</a></h2>
+        </header>
+        <section id='description'>
+            <article id='description-content'>
+                <h2>YOUR ADVENTURE</h2>
+                <h2>starts where</h2>
+                <p>
+                    Looking for a specific tour? We may have renamed it or changed a trip code. Use our search box to locate any of our current tours. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
+                </p>
+            </article>
+            <figure id='description-image'>
+                <img src="image/sec2image2.jpeg" alt="building image">
+            </figure>
+        </section>
+        <section id='form'>
+            <h2>BOOK FOR A TOUR</h2>
+            <p>Avielable tours : Mountain damavand / Lake Orumiye / Shamkhal Valley</p>
+            <section id='form-box'>
+                <form action="#" id='form-contents'>
+                    <div id='name'>
+                        <input class='names' type="text" placeholder="Your name">
+                        <input class='names' type="text" placeholder="Your Last Name">
+                    </div>
+                    <div id='email'>
+                        <input type="email" autocomplete="off" placeholder="Your Email">
+                    </div>
+                    <div id='number'>
+                        <input class='numbers' type="text" autocomplete="off" placeholder="Phone Number">
+                        <input class='numbers' type="text" autocomplete="off" placeholder="Home Number">
+                    </div>
+                    <div id='gender'>
+                        <div id='radio-contents'>
+                            <label for="genders">Gender : </label>
+                            <span class='span-style'>male</span>
+                            <input name='gender' type="radio">
+                            <span class='span-style'>female</span>
+                            <input name="gender" type="radio">
+                            </div>
+                        <input class='age' type="number" placeholder="Your age">
+                    </div>
+                    <div id='tours'>
+                        <lable><span class='locations'><span class='unique'>Shamkhal</span> Valley</span>
+                            <input name="tour" type="radio">
+                        </lable>
+                        <lable><span class='locations'><span class='unique'>Damavand</span> Mountain</span>
+                            <input name="tour" type="radio">
+                        </lable>
+                        <lable><span class='locations'><span class='unique'>Orumiye</span> Lake</span>
+                            <input name="tour" type="radio">
+                        </lable>
+                    </div>
+                    <div id='add-text'>
+                        <h2>Write anything you want ?</h2>
+                        <p contenteditable="true" placeholder="Write your additional post ..."></p>
+                    </div>
+                    <div id='submit'>
+                        <h2>After submit, we will send you an email ;)</h2>
+                        <input type="submit" placeholder="Submit">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
